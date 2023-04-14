@@ -1,0 +1,33 @@
+.container{
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border-radius: 2rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+  background-color: rgb(193, 223, 249);
+}
+label,p{
+  font-weight: 700;
+}
+input{
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+}
+input[type=checkbox]{
+    width: auto;
+    margin-right: 1rem;
+}
+button{
+    width: fit-content;
+    padding: 1rem;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1.6rem;
+    background-color: #515151;
+    color: #fff;
+    cursor: pointer;
+    margin: 0 2rem;
+}
